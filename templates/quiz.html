@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vocabulary Quiz</h1>
+        <p>What is the Spanish word for: <strong>{{ question }}</strong>?</p>
+        <form action="/submit_answer" method="post">
+            <input type="text" name="answer" required>
+            <input type="hidden" name="correct_answer" value="{{ correct_answer }}">
+            <button type="submit" class="btn btn-primary">Submit Answer</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "hablar": {
+        "yo": "hablo",
+        "tú": "hablas",
+        "él/ella": "habla",
+        "nosotros": "hablamos",
+        "ustedes": "hablan",
+        "ellos/ellas": "hablan"
+    },
+    "comer": {
+        "yo": "como",
+        "tú": "comes",
+        "él/ella": "come",
+        "nosotros": "comemos",
+        "ustedes": "comen",
+        "ellos/ellas": "comen"
+    },
+    "vivir": {
+        "yo": "vivo",
+        "tú": "vives",
+        "él/ella": "vive",
+        "nosotros": "vivimos",
+        "ustedes": "viven",
+        "ellos/ellas": "viven"
+    },
+    "tener": {
+        "yo": "tengo",
+        "tú": "tienes",
+        "él/ella": "tiene",
+        "nosotros": "tenemos",
+        "ustedes": "tienen",
+        "ellos/ellas": "tienen"
+    }
+}

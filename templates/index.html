@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Language Learning Chatbot</h1>
+        <p>Choose an option to start learning:</p>
+        <button id="vocabQuiz" class="btn btn-success btn-lg">Take Vocabulary Quiz</button>
+        <button id="grammarLearn" class="btn btn-primary btn-lg">Learn Grammar</button>
+        <button id="submitFeedback" class="btn btn-warning btn-lg">Submit Feedback</button>
+    </div>
+
+    <script>
+        document.getElementById('vocabQuiz').onclick = function() {
+            alert("Starting Vocabulary Quiz...");
+            // Implement AJAX call to your Flask backend here
+        };
+
+        document.getElementById('grammarLearn').onclick = function() {
+            alert("Learning Grammar...");
+            // Implement AJAX call to your Flask backend here
+        };
+
+        document.getElementById('submitFeedback').onclick = function() {
+            alert("Submitting Feedback...");
+            // Implement AJAX call to your Flask backend here
+        };
+    </script>
+</body>
+</html>
